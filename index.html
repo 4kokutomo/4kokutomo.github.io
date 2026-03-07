@@ -2,10 +2,59 @@
 <html lang="ja">
  <head>
   <meta charset="utf-8">
-  <title>四国掲示板・倉庫</title>
+  <title>四国の友の会</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+.button01 {
+  background-color: #fff;
+  border: double 6px #3cb371;
+  color: #000000;
+  border-radius: 10px;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 1em;
+}
+.button01:hover {
+  color: #3cb371;
+  background-color: #f0fff0;
+}
+  </style>
  </head>
- <body>
- 注意事項
+  <body>
+<div align="center">
+<h1>四国各地の友の会</h1>
+<p style="text-align: left; max-width: 720px;">
+友の会は、1930年にジャーナリストで教育者の羽仁もと子を中心に、雑誌「婦人之友」の愛読者によって生まれた団体です。<br>
+　2024年度現在、国内に173、海外に8の友の会があり、約13,500人の会員が、健全な家庭生活をつくり、社会の進歩に役立ちたいと、年代を超えてともに学び励みあっています。<br>
+　四国4県には、9つの友の会があります。下記の地域をクリックしてください。各地域のHPに移動できます〔HPがない友の会もあります〕。</p>
+<img src="shikoku-map.jpg" usemap="#image-map">
+<map name="image-map">
+    <area target="_self" alt="徳島" title="徳島" href="https://tokutomo.sunnyday.jp/" coords="567,73,621,115" shape="rect">
+    <area target="_self" alt="高松" title="高松" href="https://takatomo1931.wixsite.com/website" coords="495,12,555,59" shape="rect">
+    <area target="_self" alt="丸亀" title="丸亀" href="https://marugame-tomonokai.jimdofree.com/" coords="418,21,487,55" shape="rect">
+    <area target="_self" alt="新居浜" title="新居浜" href="https://niitomonokai2021.fc2.net/%20" coords="289,117,375,154" shape="rect">
+<!--    <area target="_self" alt="今治" title="今治" href="ima" coords="212,93,260,141" shape="rect"> -->
+    <area target="_self" alt="松山" title="松山" href="https://matuyamatomonokai360.jimdofree.com/" coords="170,149,250,181" shape="rect">
+    <area target="_self" alt="宇和島" title="宇和島" href="https://tomouwajima2022.blog.fc2.com/" coords="105,228,189,262" shape="rect">
+<!--    <area target="_self" alt="八幡浜" title="八幡浜" href="ya" coords="132,270,215,304" shape="rect"> -->
+<!--    <area target="_self" alt="高知" title="高知" href="ko" coords="357,208,430,242" shape="rect"> -->
+</map>
+
+<p style="text-align: left; max-width: 720px;">
+<a href="https://tokutomo.sunnyday.jp/4koku/" class="button01">会員のページへ</a></p>
+
+</div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
+  <script>
+    $(document).ready(function(e) {
+      $('img[usemap]').rwdImageMaps();
+    });
+  </script>
+
  </body>
 </html>
